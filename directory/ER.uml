@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>DATABASE</ID>
+  <OriginalElement>22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.categories</OriginalElement>
+  <nodes>
+    <node x="253.0" y="227.0">22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.customers</node>
+    <node x="452.0" y="662.0">22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.orders</node>
+    <node x="1189.2051282051282" y="706.0">22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.products</node>
+    <node x="889.5" y="0.0">22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.region</node>
+    <node x="884.0" y="315.0">22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.territories</node>
+    <node x="86.0" y="804.0">22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.customer_customer_demo</node>
+    <node x="1292.0" y="304.0">22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.categories</node>
+    <node x="455.0" y="315.0">22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.shippers</node>
+    <node x="858.4871794871794" y="1076.0">22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.order_details</node>
+    <node x="792.9166666666667" y="804.0">22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.employee_territories</node>
+    <node x="0.0" y="326.0">22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.customer_demographics</node>
+    <node x="1090.0" y="216.0">22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.suppliers</node>
+    <node x="677.0" y="150.0">22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.employees</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.products" target="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.suppliers">
+      <point x="-48.0" y="-138.0" />
+      <point x="1237.2051282051282" y="642.0" />
+      <point x="1181.0" y="642.0" />
+      <point x="0.0" y="160.0" />
+    </edge>
+    <edge source="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.products" target="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.categories">
+      <point x="48.0" y="-138.0" />
+      <point x="1333.2051282051282" y="642.0" />
+      <point x="1381.5" y="642.0" />
+      <point x="0.0" y="72.0" />
+    </edge>
+    <edge source="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.employees" target="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.employees">
+      <point x="-62.33333333333334" y="226.0" />
+      <point x="708.1666666666666" y="622.0" />
+      <point x="657.0" y="622.0" />
+      <point x="657.0" y="376.0" />
+      <point x="-93.5" y="-0.0" />
+    </edge>
+    <edge source="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.customer_customer_demo" target="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.customer_demographics">
+      <point x="-60.75" y="-40.0" />
+      <point x="146.75" y="642.0" />
+      <point x="116.5" y="642.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.orders" target="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.employees">
+      <point x="62.66666666666663" y="-182.0" />
+      <point x="608.6666666666666" y="642.0" />
+      <point x="770.5" y="642.0" />
+      <point x="0.0" y="226.0" />
+    </edge>
+    <edge source="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.territories" target="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.region">
+      <point x="0.0" y="-61.0" />
+      <point x="0.0" y="50.0" />
+    </edge>
+    <edge source="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.order_details" target="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.products">
+      <point x="39.0" y="-83.0" />
+      <point x="975.4871794871794" y="1051.0" />
+      <point x="1285.2051282051282" y="1051.0" />
+      <point x="0.0" y="138.0" />
+    </edge>
+    <edge source="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.customer_customer_demo" target="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.customers">
+      <point x="60.75" y="-40.0" />
+      <point x="268.25" y="642.0" />
+      <point x="298.5" y="642.0" />
+      <point x="-45.5" y="149.0" />
+    </edge>
+    <edge source="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.order_details" target="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.orders">
+      <point x="-39.0" y="-83.0" />
+      <point x="897.4871794871794" y="1051.0" />
+      <point x="546.0" y="1051.0" />
+      <point x="0.0" y="182.0" />
+    </edge>
+    <edge source="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.orders" target="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.shippers">
+      <point x="0.0" y="-182.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.employee_territories" target="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.territories">
+      <point x="56.0" y="-40.0" />
+      <point x="960.9166666666667" y="642.0" />
+      <point x="977.0" y="642.0" />
+      <point x="0.0" y="61.0" />
+    </edge>
+    <edge source="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.orders" target="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.customers">
+      <point x="-62.66666666666663" y="-182.0" />
+      <point x="483.33333333333337" y="642.0" />
+      <point x="389.5" y="642.0" />
+      <point x="45.5" y="149.0" />
+    </edge>
+    <edge source="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.employee_territories" target="22793e7c-280e-4814-84e2-d817e5128966.TABLE:postgres.public.employees">
+      <point x="-56.0" y="-40.0" />
+      <point x="848.9166666666667" y="642.0" />
+      <point x="832.8333333333334" y="642.0" />
+      <point x="62.33333333333337" y="226.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7019017432646593" x="755.4348611424701" y="261.4055091442764" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Key columns</Category>
+    <Category>Columns</Category>
+  </Categories>
+</Diagram>
+
